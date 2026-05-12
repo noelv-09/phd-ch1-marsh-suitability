@@ -1,0 +1,124 @@
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+.installed.cfg
+*.egg
+.venv/
+venv/
+env/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.hypothesis/
+
+# =============================================================================
+# Jupyter
+# =============================================================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# =============================================================================
+# LaTeX (in case chapter/ is added later)
+# =============================================================================
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.nav
+*.snm
+*.vrb
+
+# Keep the final Chapter1.pdf if/when it lands; don't ignore *.pdf wholesale.
+
+# =============================================================================
+# Scientific data — large / binary / generated outputs
+# =============================================================================
+# Raw D-Flow FM outputs are NOT version-controlled; track manifests only.
+*.nc
+*.nc4
+*.hdf5
+*.h5
+*.zarr/
+data/raw/
+data/derived/*.npy
+data/derived/*.npz
+data/derived/*.parquet
+
+# Keep small CSV manifests and YAML configs (do not ignore those).
+
+# =============================================================================
+# GIS
+# =============================================================================
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qix
+*.tif
+*.tiff
+*.geotiff
+*.xyz
+*.asc
+
+# =============================================================================
+# Plots / figures generated at runtime
+# =============================================================================
+figures/_generated/
+docs/_build/
+*.eps.bak
+
+# =============================================================================
+# IDE / OS
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =============================================================================
+# Secrets / local config
+# =============================================================================
+.env
+.env.local
+*.local.yaml
+credentials.yaml
