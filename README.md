@@ -3,7 +3,7 @@
 **Author:** Noelani Villa
 **Program:** Civil & Environmental Engineering (Water Resources), University of New Mexico
 **Status:** 🚧 Pre-defense draft (Fall 2026 target)
-**Visibility:** Private — code and manuscript not yet released
+**Visibility:** Public — synthetic-data demonstration notebook released; full analysis pipeline and manuscript will follow after committee review
 
 ---
 
